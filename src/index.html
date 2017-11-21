@@ -31,6 +31,9 @@
 	<!-- Responsive meta tag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Rock+Salt" rel="stylesheet">
+
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
@@ -38,23 +41,162 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style-small-devices.css">
 	<link rel="stylesheet" href="css/style-medium-devices.css">
+
 </head>
 <body>
-
 	<!-- Navbar -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a href="#" class="navbar-brand">AlphaGo <span class="cursive small-font logo-up">na</span>
+			<img style="vertical-align: -5%;"  id="usp-logo-small"src="img/usp-logo-white.png" alt="usp-logo"></a>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-item nav-link active" href="#event">Evento <span class="sr-only">(current)</span></a></li>
+				<li class="nav-item"><a id="trailer-link" class="nav-item nav-link" href="#info">Informações</a></li>
+				<li class="nav-item"><a id="trailer-link" class="nav-item nav-link" href="#trailer">Trailer</a></li>
+				<li class="nav-item"><a class="nav-item nav-link" href="#subscriptions">Inscrições</a></li>
+				<li class="nav-item"><a class="nav-item nav-link" href="#local">Local</a></li>
+				<li class="nav-item"><a class="nav-item nav-link" href="#partners">Apoio</a></li>	
+			</ul>
+		</div>
+	</nav>	
+	</div>
 
-	<!-- Home -->
+	<main class="">
 
-	<!-- Trailer -->
+		<!-- Home -->
+		<section id="home" class="">
 
-	<!-- Local & Data -->
+			<article class="">
+				<h1 class="alphago-na-usp">
+					AlphaGo <br>
+					<span class="cursive small-font">na</span>
+					<img id="usp-logo-small" src="img/usp-logo-white.png" alt="usp-logo">
+				</h1>
+				<p></p>
+			</article>
 
-	<!-- Inscrições -->
+			<div id="AlphaGo-carousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/AG_Kids_72.jpg" alt="Kids playing Go">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/AG_Match_72.jpg" alt="Match between AlphaGo and Lee Sedol">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="img/AG_Hallway_72.jpg" alt="Hallway">
+					</div>
+				</div>
+			</div>
+		</section>
 
-	<!-- Apoio -->
+		<!-- Evento -->
+		<section id="event" class="container-fluid clearfix">
+			<h1 class="">Evento</h1>
+			<p>
+				<img class="poster" src="img/poster.jpg" alt="Poster">
+				O Laboratório de Lógica, Inteligência Artificial e Métodos Formais (<a href="https://liamf-usp.github.io/liamf-page/">LIAMF</a>) do Instituto de Matemática e Estatística da USP (<a href="https://www.ime.usp.br/">IME</a>) tem o prazer de convidar a todos para o lançamento oficial no Brasil do documentário "AlphaGo".
+			</p>
 
-	<!-- Copyright -->
+			<p>
+				O documentário, dirigido por Greg Kohs, acompanha os bastidores de um dos maiores sucessos dos últimos anos da área de inteligência artificial.
+			</p>
 
+			<p>
+				O screening do documentário na USP será realizado às 16h do dia 15/12/2017 no auditório do Instituto de Energia e Ambiente (<a href="http://www.iee.usp.br/">IEE</a>).
+			</p>
+			<p>
+				A entrada é franca, porém é necessário realizar <a href="#subscriptions">inscrição prévia</a> para ingresso no evento. O número de vagas é limitado.
+			</p>
+			</p>
+		</section>
+
+		<section id="info" class="container-fluid">
+			<h1 class="">Informações</h1>
+			<ul>
+				<li>O jogo de Go originou-se na China há mais de 3.000 anos.</li>
+				<li>Go é o considerado o jogo de tabuleiro mais complexo já inventado - o número de configurações possíveis do tabuleiro (da ordem de 10^170) é maior que o número estimado de átomos no universo.</li>
+				<li>Por anos, o jogo de Go foi considerado um dos maiores desafios da área de inteligência artificial.</li>
+				<li>Em março de 2016 ocorreu o tão esperado embate entre o melhor jogador de Go da última década, Lee Sedol, e o programa de computador baseado em inteligência artificial AlphaGo desenvolvido pela Google DeepMind.</li>
+				<li>Antes do AlphaGo, nenhum programa de computador jamais tinha ganhado de um jogador profissional de Go.</li>
+				<li>Mais de 200 milhões de espectadores ao redor do mundo assistiram à competição de melhor de 5 jogos com Lee Sedol.</li>
+			</ul>
+		</section>
+
+		<!-- Trailer -->
+		<section id="trailer" class="container-fluid">
+			<h1 class="">Trailer</h1>
+			<iframe class="iframe-trailer" height="400px" src="https://www.youtube-nocookie.com/embed/8tq1C8spV_g?rel=0" frameborder="1" allowfullscreen></iframe>
+		</section>
+
+		<!-- Inscrições -->
+		<section id="subscriptions" class="container-fluid">
+			<h1 class="">Inscrições</h1>
+
+			<p>Para participar do evento é necessário se inscrever gratuitamente no formulário abaixo.</p>
+
+			<p>Não deixe para a última hora pois as vagas são limitadas!</p>
+
+			<div id="eventbrite-widget-container-40164363693"></div>
+
+			<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+			<script type="text/javascript">
+			    var exampleCallback = function() {
+			        console.log('Order complete!');
+			    };
+
+			    window.EBWidgets.createWidget({
+			        // Required
+			        widgetType: 'checkout',
+			        eventId: '40164363693',
+			        iframeContainerId: 'eventbrite-widget-container-40164363693',
+
+			        // Optional
+			        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+			        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+			    });
+			</script>	
+		</section>
+
+		<!-- Local -->
+		<section id="local" class="container-fluid">
+			<h1 class="">Local</h1>
+			<div class="row">
+				<div class="col-lg-5 col-md-12">
+					<p>
+						AUDITÓRIO DO IEE/USP (bloco C)
+					</p>
+					<address>
+						Instituto de Energia e Ambiente da USP <br>	
+						Av. Prof. Luciano Gualberto, 1.289 <br>
+						05508-900 - São Paulo - SP
+					</address>
+				</div>
+				<div class="col-lg-7 col-md-12">
+					<iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.29294768705!2d-46.735474984900094!3d-23.557919984684553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5616b27b7ba5%3A0xbf3891c8c2f7a2cf!2sUSP+-+Instituto+de+Energia+e+Ambiente!5e0!3m2!1spt-BR!2sbr!4v1511299080426" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<!-- Apoio -->
+		<section id="partners" class="container-fluid">
+			<h1 class="">Apoio</h1>
+			<div class="bg-white text-center">
+				<p><img id="liamf-logo-footer" src="img/liamf-logo.png" alt="LIAMF logo"></p>
+				<p><img id="google-logo-footer" src="img/272px-Google_2015_logo.png" alt="Google logo"></p>
+				<p><img id="iee-logo-footer" src="img/logo_iee_usp.gif" alt="IEE logo"></p>
+			</div>
+		</section>
+		
+
+		<!-- Copyright -->
+		<footer id="copyright">&copy; LIAMF 2017 - AlphaGo na USP</footer>
+		
+	</main>
 
 	<!-- jQuery, Popper, Bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

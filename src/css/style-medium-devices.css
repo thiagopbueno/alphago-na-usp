@@ -1,9 +1,27 @@
-/* Portrait */
+/* Portrait & Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+	.iframe-trailer {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	#home {
+		margin-top: 120px;
+	}
+
+	#event {
+		margin-top: 100px;
+	}
+}
+
+/* Portrait*/
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) {
-
+	
 }
 
 /* Landscape */
@@ -11,5 +29,8 @@
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) {
-
+	
+	#home article {
+  		top: 250px;
+  	}
 }

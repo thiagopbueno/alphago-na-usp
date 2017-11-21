@@ -1,13 +1,60 @@
+/* Portrait & Landscape */
+@media only screen 
+  and (max-device-width: 768px) {
+
+  	.iframe-trailer {
+		margin: 0 auto;
+		width: 100%;
+		height: 200px !important;
+	}
+
+	section#event h1 {
+		padding-top: 0px;
+	}
+
+	img.poster {
+		float: none;
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	p, li, address {
+		font-size: 0.8em;
+	}
+
+}
+
 /* Portrait */
 @media only screen 
   and (max-device-width: 768px) 
   and (orientation: portrait) {
 
+  	h1 {
+  		text-align: center;
+  	}
+
+  	#home article {
+  		display: none;
+  	}
+
+  	#trailer {
+  		display: block;
+  	}
+
+  	#partners img {
+  		width: 40%;
+  		height: auto;
+  		margin: 20px auto;
+  		min-height: 30px;
+  	}
 }
 
 /* Landscape */
 @media only screen 
   and (max-device-width: 768px) 
   and (orientation: landscape) {
+
 
 }

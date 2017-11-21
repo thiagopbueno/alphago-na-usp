@@ -1,8 +1,110 @@
 /* Colors */
+
 body {
 	background-color: black;
 	color: white;
+	font-family: 'Lato', sans-serif;
 }
 
 /* Fonts */
 
+.cursive {
+	font-family: 'Rock Salt', cursive;
+}
+
+.sans-serif {
+	font-family: 'Lato', sans-serif;
+}
+
+.small-font {
+	font-size: 0.7em;
+}
+
+.logo-up {
+	vertical-align: 10%;
+}
+
+
+/* Layouts */
+
+.container-fluid {
+	margin-top: 100px;
+	width: 80%;
+}
+
+/* Images & Media */
+
+#AlphaGo-carousel img {
+	opacity: 0.40;
+    filter: alpha(opacity=40);
+}
+
+img#usp-logo-small {
+	max-height: 1em;
+}
+
+img.poster {
+	margin: 0 auto;
+	width: 30%;
+	float: right;
+	margin-left: 50px;
+}
+
+.iframe-trailer {
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 50px;
+}
+
+section#event h1,
+section#info h1,
+section#trailer h1,
+section#subscriptions h1,
+section#local h1,
+section#partners h1 {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+/* Components */
+
+h1.alphago-na-usp {
+	font-size: 5em;
+	text-align: center;
+}
+
+#home {
+	margin-top: 56px;
+}
+
+#home article {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	padding: 50px;
+}
+
+#maps {
+	width: 100%;
+}
+
+#partners img {
+	height: 100px;
+	margin: 30px auto;
+}
+
+#liamf-logo-footer {
+	min-height: 130px;
+}
+
+#iee-logo-footer {
+	min-height: 150px;
+}
+
+
+footer#copyright {
+	text-align: center;
+	margin: 50px auto;
+}
