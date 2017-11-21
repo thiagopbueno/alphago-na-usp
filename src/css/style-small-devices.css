@@ -1,0 +1,13 @@
+/* Portrait */
+@media only screen 
+  and (max-device-width: 768px) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (max-device-width: 768px) 
+  and (orientation: landscape) {
+
+}
