@@ -24,6 +24,11 @@
 		font-size: 0.8em;
 	}
 
+  #maps {
+    width: 270px !important;
+  }
+
+
 }
 
 /* Portrait */
