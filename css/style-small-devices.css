@@ -53,6 +53,10 @@
   		margin: 20px auto;
   		min-height: 30px;
   	}
+
+    #iee-logo-footer {
+      width: 70% !important;
+    }
 }
 
 /* Landscape */
@@ -60,5 +64,8 @@
   and (max-device-width: 768px) 
   and (orientation: landscape) {
 
+  #iee-logo-footer {
+    max-width: 80%;
+  }
 
 }
