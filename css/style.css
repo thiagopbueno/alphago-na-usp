@@ -35,8 +35,8 @@ body {
 /* Images & Media */
 
 #AlphaGo-carousel img {
-	opacity: 0.40;
-    filter: alpha(opacity=40);
+	opacity: 0.60;
+    filter: alpha(opacity=60);
 }
 
 img#usp-logo-small {
