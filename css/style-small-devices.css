@@ -21,13 +21,12 @@
 	}
 
 	p, li, address {
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 
   #maps {
     width: 270px !important;
   }
-
 
 }
 
