@@ -67,5 +67,12 @@
   #iee-logo-footer {
     max-width: 80%;
   }
+  
+  #call2action {
+    font-size: 0.5em;
+  }
 
+  #call2action h2 {
+    font-size: 2em;
+  }
 }
